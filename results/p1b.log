@@ -1,0 +1,28 @@
+LogReg       with ACC     exercise-inclusive  n=29 | stress recall [0.889, 0.727, 1.0] | rest FP [0.902, 0.825, 0.947] | exercise FP [0.091, 0.036, 0.149]
+LogReg       with ACC     rest-only           n=29 | stress recall [0.8, 0.615, 1.0] | rest FP [0.278, 0.167, 0.529] | exercise FP [0.827, 0.75, 0.904]
+LogReg       without ACC  exercise-inclusive  n=29 | stress recall [0.727, 0.6, 0.9] | rest FP [0.894, 0.818, 0.981] | exercise FP [0.188, 0.13, 0.25]
+LogReg       without ACC  rest-only           n=29 | stress recall [0.8, 0.467, 1.0] | rest FP [0.211, 0.118, 0.471] | exercise FP [0.987, 0.931, 1.0]
+RandomForest with ACC     exercise-inclusive  n=29 | stress recall [0.167, 0.0, 0.4] | rest FP [0.038, 0.0, 0.093] | exercise FP [0.0, 0.0, 0.0]
+RandomForest with ACC     rest-only           n=29 | stress recall [0.3, 0.091, 0.8] | rest FP [0.055, 0.0, 0.125] | exercise FP [0.481, 0.404, 0.6]
+RandomForest without ACC  exercise-inclusive  n=29 | stress recall [0.083, 0.0, 0.25] | rest FP [0.018, 0.0, 0.056] | exercise FP [0.012, 0.0, 0.022]
+RandomForest without ACC  rest-only           n=29 | stress recall [0.455, 0.2, 0.636] | rest FP [0.055, 0.019, 0.143] | exercise FP [0.56, 0.489, 0.654]
+paired LogReg with ACC {"d_exercise_fp_median": -0.7088607594936709, "p_exercise": 3.725290298461914e-09, "d_stress_recall_median": 0.0, "p_recall": 0.1067810163242643}
+paired LogReg without ACC {"d_exercise_fp_median": -0.7777777777777777, "p_exercise": 2.5596332107133318e-06, "d_stress_recall_median": 0.0, "p_recall": 0.9093335042151244}
+paired RandomForest with ACC {"d_exercise_fp_median": -0.4787234042553192, "p_exercise": 2.5613577487758663e-06, "d_stress_recall_median": -0.09999999999999998, "p_recall": 0.0005385174873341328}
+paired RandomForest without ACC {"d_exercise_fp_median": -0.5443037974683544, "p_exercise": 3.725290298461914e-09, "d_stress_recall_median": -0.2727272727272727, "p_recall": 1.219038255670596e-05}
+shift rest->stress|hr_mean paired d=1.09 meandiff=6.109 n=33
+shift rest->stress|rmssd paired d=-0.17 meandiff=-0.004 n=33
+shift rest->stress|acc_std paired d=0.35 meandiff=0.004 n=33
+shift rest->stress|acc_mean paired d=0.16 meandiff=0.001 n=33
+shift rest->stress|hrv_missing paired d=0.54 meandiff=0.116 n=33
+shift rest->exercise|hr_mean paired d=1.53 meandiff=27.278 n=29
+shift rest->exercise|rmssd paired d=-0.38 meandiff=-0.011 n=29
+shift rest->exercise|acc_std paired d=1.96 meandiff=0.042 n=29
+shift rest->exercise|acc_mean paired d=0.37 meandiff=0.034 n=29
+shift rest->exercise|hrv_missing paired d=1.91 meandiff=0.493 n=29
+shift stress->exercise|hr_mean paired d=1.15 meandiff=20.711 n=29
+shift stress->exercise|rmssd paired d=-0.19 meandiff=-0.007 n=29
+shift stress->exercise|acc_std paired d=1.57 meandiff=0.038 n=29
+shift stress->exercise|acc_mean paired d=0.36 meandiff=0.033 n=29
+shift stress->exercise|hrv_missing paired d=1.11 meandiff=0.364 n=29
+wasserstein {"rest-stress|hr_mean": 0.216, "rest-exercise|hr_mean": 1.021, "stress-exercise|hr_mean": 0.829, "rest-stress|acc_std": 0.119, "rest-exercise|acc_std": 1.053, "stress-exercise|acc_std": 0.935, "rest-stress|acc_mean": 0.032, "rest-exercise|acc_mean": 0.241, "stress-exercise|acc_mean": 0.272}

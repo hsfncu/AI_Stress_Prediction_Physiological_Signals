@@ -1,0 +1,16 @@
+LOSO LogReg balAcc=0.677 CI[0.627,0.727]
+LOSO RandomForest balAcc=0.627 CI[0.577,0.682]
+LOTO LogReg       Stroop           held-out-task balAcc=0.655 [0.565,0.751] | ordinary LOSO same windows=0.644 [0.567,0.728] | n_stress=54 n_subj=17
+LOTO LogReg       TMCT             held-out-task balAcc=0.626 [0.570,0.679] | ordinary LOSO same windows=0.647 [0.591,0.703] | n_stress=214 n_subj=33
+LOTO LogReg       RealOpinion      held-out-task balAcc=0.755 [0.682,0.822] | ordinary LOSO same windows=0.766 [0.693,0.831] | n_stress=29 n_subj=29
+LOTO LogReg       OppositeOpinion  held-out-task balAcc=0.699 [0.597,0.785] | ordinary LOSO same windows=0.719 [0.618,0.800] | n_stress=29 n_subj=29
+LOTO LogReg       Subtract         held-out-task balAcc=0.726 [0.659,0.790] | ordinary LOSO same windows=0.732 [0.665,0.794] | n_stress=33 n_subj=32
+LOTO RandomForest Stroop           held-out-task balAcc=0.591 [0.524,0.661] | ordinary LOSO same windows=0.664 [0.566,0.755] | n_stress=54 n_subj=17
+LOTO RandomForest TMCT             held-out-task balAcc=0.530 [0.489,0.574] | ordinary LOSO same windows=0.608 [0.558,0.664] | n_stress=214 n_subj=33
+LOTO RandomForest RealOpinion      held-out-task balAcc=0.667 [0.577,0.758] | ordinary LOSO same windows=0.660 [0.569,0.746] | n_stress=29 n_subj=29
+LOTO RandomForest OppositeOpinion  held-out-task balAcc=0.581 [0.511,0.659] | ordinary LOSO same windows=0.593 [0.523,0.673] | n_stress=29 n_subj=29
+LOTO RandomForest Subtract         held-out-task balAcc=0.602 [0.531,0.681] | ordinary LOSO same windows=0.657 [0.569,0.745] | n_stress=33 n_subj=32
+B per-subject: {"n": 33, "balAcc_median": 0.6519607843137255, "balAcc_IQR": [0.5765550239234449, 0.7804459691252144], "share_below_0_5": 0.12121212121212122, "share_above_0_7": 0.3939393939393939, "spearman_balAcc_vs_dHR": [0.4876336898395722, 0.003995617617623863], "spearman_balAcc_vs_dlogRMSSD": [-0.08890374331550803, 0.6227214514660669]}
+C self-report within-person Spearman [rho,p,n,CIlo,CIhi]: {"hr_c": [0.3613577217870428, 9.485226756825459e-08, 206, 0.219407443195377, 0.5001315646213255], "rm_c": [-0.2687298197418944, 0.0005671486604231119, 161, -0.433939347362522, -0.08412425026037072], "acc_c": [0.03364484359081051, 0.6311620411309398, 206, -0.10715937659972306, 0.1821423802739636]}
+D risk-coverage LogReg [(1.0, 0.677, 1564), (0.8, 0.708, 1251), (0.6, 0.715, 938), (0.4, 0.735, 626), (0.2, 0.752, 313)]
+D risk-coverage RandomForest [(1.0, 0.627, 1564), (0.8, 0.616, 1251), (0.6, 0.601, 938), (0.4, 0.581, 626), (0.2, 0.61, 313)]

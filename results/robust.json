@@ -1,0 +1,152 @@
+{
+ "stress_vs_rest|full(HR+HRV+ACC+missing)|LogReg": [
+  0.6769391694309921,
+  0.6267873266303251,
+  0.7274582883777466
+ ],
+ "stress_vs_rest|full(HR+HRV+ACC+missing)|RandomForest": [
+  0.6267883355101191,
+  0.5770220002536308,
+  0.6824116272916381
+ ],
+ "stress_vs_rest|no_missing_flag|LogReg": [
+  0.6506825090442562,
+  0.5989670129580061,
+  0.7023936013976316
+ ],
+ "stress_vs_rest|no_missing_flag|RandomForest": [
+  0.6246847513262983,
+  0.577089636068963,
+  0.6789726188367637
+ ],
+ "stress_vs_rest|no_ACC(HR+HRV+missing)|LogReg": [
+  0.6606988060426033,
+  0.6057036488082864,
+  0.7215689253394687
+ ],
+ "stress_vs_rest|no_ACC(HR+HRV+missing)|RandomForest": [
+  0.6394999942209225,
+  0.5911194404595737,
+  0.6920304602933027
+ ],
+ "stress_vs_rest|HR_only|LogReg": [
+  0.6135542481998173,
+  0.5571886013631983,
+  0.6745789731758757
+ ],
+ "stress_vs_rest|HR_only|RandomForest": [
+  0.572052381557808,
+  0.5334119729674446,
+  0.6131398013454787
+ ],
+ "stress_vs_rest|ACC_only|LogReg": [
+  0.5667310070620326,
+  0.5269117119832969,
+  0.6062968645748319
+ ],
+ "stress_vs_rest|ACC_only|RandomForest": [
+  0.5070978628971671,
+  0.48036390629070513,
+  0.5308023660203827
+ ],
+ "stress_vs_rest|missing_flag_only|LogReg": [
+  0.5644135970133728,
+  0.5319334096530768,
+  0.6006798139356925
+ ],
+ "stress_vs_rest|missing_flag_only|RandomForest": [
+  0.5644135970133728,
+  0.5319334096530768,
+  0.6006798139356925
+ ],
+ "stress_vs_rest|LSTM_seed0": [
+  0.6524035183023382,
+  0.5985014935933051,
+  0.7089506245379896
+ ],
+ "stress_vs_rest|LSTM_seed1": [
+  0.6618245703255932,
+  0.6170485243862921,
+  0.707047249249661
+ ],
+ "stress_vs_rest|LSTM_seed2": [
+  0.6470960135923901,
+  0.5945809199587405,
+  0.6974077029562954
+ ],
+ "stress_vs_exercise|full(HR+HRV+ACC+missing)|LogReg": [
+  0.8517374962946537,
+  0.8031775167001908,
+  0.8917165825799068
+ ],
+ "stress_vs_exercise|full(HR+HRV+ACC+missing)|RandomForest": [
+  0.8732613157317126,
+  0.8348317315514907,
+  0.9067085441467468
+ ],
+ "stress_vs_exercise|no_missing_flag|LogReg": [
+  0.8507220616886423,
+  0.8017897756796679,
+  0.8914564155294332
+ ],
+ "stress_vs_exercise|no_missing_flag|RandomForest": [
+  0.8700696265689738,
+  0.8335889306089115,
+  0.9022691840041157
+ ],
+ "stress_vs_exercise|no_ACC(HR+HRV+missing)|LogReg": [
+  0.8047022259231686,
+  0.7505699707135515,
+  0.8513304505683714
+ ],
+ "stress_vs_exercise|no_ACC(HR+HRV+missing)|RandomForest": [
+  0.7626253312183632,
+  0.709403780957171,
+  0.8156946347621971
+ ],
+ "stress_vs_exercise|HR_only|LogReg": [
+  0.6819223223639996,
+  0.6169417682630262,
+  0.745406609173067
+ ],
+ "stress_vs_exercise|HR_only|RandomForest": [
+  0.5440223429555426,
+  0.5110298249726122,
+  0.5868330136131928
+ ],
+ "stress_vs_exercise|ACC_only|LogReg": [
+  0.8454740467360141,
+  0.7990581325114035,
+  0.8828660469225891
+ ],
+ "stress_vs_exercise|ACC_only|RandomForest": [
+  0.860291472159555,
+  0.8204434044578277,
+  0.8938100431637395
+ ],
+ "stress_vs_exercise|missing_flag_only|LogReg": [
+  0.6892057321424935,
+  0.6303295379007378,
+  0.7391971423283892
+ ],
+ "stress_vs_exercise|missing_flag_only|RandomForest": [
+  0.6892057321424935,
+  0.6303295379007378,
+  0.7391971423283892
+ ],
+ "stress_vs_exercise|LSTM_seed0": [
+  0.8837686596715761,
+  0.8403157473010793,
+  0.9194522708993513
+ ],
+ "stress_vs_exercise|LSTM_seed1": [
+  0.8876284425778802,
+  0.8462857395897683,
+  0.9211677762990517
+ ],
+ "stress_vs_exercise|LSTM_seed2": [
+  0.8784018473555707,
+  0.8334145327344785,
+  0.915554678040972
+ ]
+}

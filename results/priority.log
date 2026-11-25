@@ -1,0 +1,9 @@
+P1 with ACC {"rest_fp": [0.2777777777777778, 0.16666666666666666, 0.5294117647058824], "stress_recall": [0.8, 0.6153846153846154, 1.0], "exercise_false_stress": [0.8271604938271605, 0.75, 0.9042553191489362], "n_subjects": 29}
+P1 without ACC {"rest_fp": [0.21052631578947367, 0.11764705882352941, 0.47058823529411764], "stress_recall": [0.8, 0.4666666666666667, 1.0], "exercise_false_stress": [0.9873417721518988, 0.9305555555555556, 1.0], "n_subjects": 29}
+P1 wilcoxon exercise vs rest false-positive with ACC 9.313225746154785e-08
+P1 wilcoxon exercise vs rest false-positive without ACC 2.8470023240046248e-06
+P2 {"n": 33, "mean_diff_LR_minus_RF": 0.03642859053445725, "ci": [-0.011343455107452305, 0.08170525751381927], "wilcoxon_p": 0.07673266180790961}
+P3 independent-task HR reactivity vs accuracy: n=33 rho=0.259 p=0.1456
+P4 mixed model (stress-task phases only, task fixed effect, subject random intercept): {"hr_w": {"coef": 0.010606323080337954, "se": 0.02317779435729364, "p": 0.6472347472370925, "n": 95, "n_subj": 33}, "rm_w": {"coef": -0.8607952074396306, "se": 0.43290535913073563, "p": 0.04676588834534702, "n": 95, "n_subj": 33}}
+P5 random window-level 10-fold LogReg: balAcc=0.693 (subject-wise LOSO: LogReg 0.677 / RF 0.627)
+P5 random window-level 10-fold RandomForest: balAcc=0.685 (subject-wise LOSO: LogReg 0.677 / RF 0.627)

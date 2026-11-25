@@ -1,0 +1,719 @@
+{
+ "LOSO|3class": {
+  "classes": [
+   "rest",
+   "stress",
+   "exercise"
+  ],
+  "LogReg": {
+   "macroF1": 0.657,
+   "balAcc": 0.69,
+   "subjBalAcc_mean": 0.668,
+   "n": 4026,
+   "confusion": [
+    [
+     788,
+     338,
+     79
+    ],
+    [
+     108,
+     197,
+     54
+    ],
+    [
+     32,
+     297,
+     2133
+    ]
+   ]
+  },
+  "RandomForest": {
+   "macroF1": 0.692,
+   "balAcc": 0.686,
+   "subjBalAcc_mean": 0.665,
+   "n": 4026,
+   "confusion": [
+    [
+     980,
+     111,
+     114
+    ],
+    [
+     189,
+     107,
+     63
+    ],
+    [
+     79,
+     52,
+     2331
+    ]
+   ]
+  },
+  "LSTM": {
+   "macroF1": 0.686,
+   "balAcc": 0.72,
+   "subjBalAcc_mean": 0.699,
+   "n": 4026,
+   "confusion": [
+    [
+     811,
+     337,
+     57
+    ],
+    [
+     110,
+     211,
+     38
+    ],
+    [
+     42,
+     204,
+     2216
+    ]
+   ]
+  },
+  "Majority": {
+   "macroF1": 0.253,
+   "balAcc": 0.333,
+   "subjBalAcc_mean": 0.293,
+   "n": 4026,
+   "confusion": [
+    [
+     0,
+     0,
+     1205
+    ],
+    [
+     0,
+     0,
+     359
+    ],
+    [
+     0,
+     0,
+     2462
+    ]
+   ]
+  }
+ },
+ "LOSO|stress_vs_rest": {
+  "classes": [
+   "rest",
+   "stress"
+  ],
+  "LogReg": {
+   "macroF1": 0.623,
+   "balAcc": 0.677,
+   "subjBalAcc_mean": 0.669,
+   "n": 1564,
+   "confusion": [
+    [
+     799,
+     406
+    ],
+    [
+     111,
+     248
+    ]
+   ]
+  },
+  "RandomForest": {
+   "macroF1": 0.635,
+   "balAcc": 0.628,
+   "subjBalAcc_mean": 0.633,
+   "n": 1564,
+   "confusion": [
+    [
+     1044,
+     161
+    ],
+    [
+     219,
+     140
+    ]
+   ]
+  },
+  "LSTM": {
+   "macroF1": 0.608,
+   "balAcc": 0.652,
+   "subjBalAcc_mean": 0.634,
+   "n": 1564,
+   "confusion": [
+    [
+     807,
+     398
+    ],
+    [
+     131,
+     228
+    ]
+   ]
+  },
+  "Majority": {
+   "macroF1": 0.435,
+   "balAcc": 0.5,
+   "subjBalAcc_mean": 0.5,
+   "n": 1564,
+   "confusion": [
+    [
+     1205,
+     0
+    ],
+    [
+     359,
+     0
+    ]
+   ]
+  }
+ },
+ "LOSO|stress_vs_exercise": {
+  "classes": [
+   "exercise",
+   "stress"
+  ],
+  "LogReg": {
+   "macroF1": 0.757,
+   "balAcc": 0.852,
+   "subjBalAcc_mean": 0.854,
+   "n": 2821,
+   "confusion": [
+    [
+     2116,
+     346
+    ],
+    [
+     56,
+     303
+    ]
+   ]
+  },
+  "RandomForest": {
+   "macroF1": 0.866,
+   "balAcc": 0.874,
+   "subjBalAcc_mean": 0.869,
+   "n": 2821,
+   "confusion": [
+    [
+     2368,
+     94
+    ],
+    [
+     77,
+     282
+    ]
+   ]
+  },
+  "LSTM": {
+   "macroF1": 0.807,
+   "balAcc": 0.884,
+   "subjBalAcc_mean": 0.889,
+   "n": 2821,
+   "confusion": [
+    [
+     2212,
+     250
+    ],
+    [
+     47,
+     312
+    ]
+   ]
+  },
+  "Majority": {
+   "macroF1": 0.466,
+   "balAcc": 0.5,
+   "subjBalAcc_mean": 0.5,
+   "n": 2821,
+   "confusion": [
+    [
+     2462,
+     0
+    ],
+    [
+     359,
+     0
+    ]
+   ]
+  }
+ },
+ "train_v1_test_v2|3class": {
+  "classes": [
+   "rest",
+   "stress",
+   "exercise"
+  ],
+  "LogReg": {
+   "macroF1": 0.595,
+   "balAcc": 0.623,
+   "subjBalAcc_mean": 0.59,
+   "n": 2232,
+   "confusion": [
+    [
+     470,
+     297,
+     99
+    ],
+    [
+     47,
+     84,
+     55
+    ],
+    [
+     14,
+     133,
+     1033
+    ]
+   ]
+  },
+  "RandomForest": {
+   "macroF1": 0.634,
+   "balAcc": 0.635,
+   "subjBalAcc_mean": 0.587,
+   "n": 2232,
+   "confusion": [
+    [
+     645,
+     133,
+     88
+    ],
+    [
+     92,
+     44,
+     50
+    ],
+    [
+     37,
+     53,
+     1090
+    ]
+   ]
+  },
+  "LSTM": {
+   "macroF1": 0.595,
+   "balAcc": 0.62,
+   "subjBalAcc_mean": 0.597,
+   "n": 2232,
+   "confusion": [
+    [
+     523,
+     280,
+     63
+    ],
+    [
+     78,
+     81,
+     27
+    ],
+    [
+     46,
+     164,
+     970
+    ]
+   ]
+  },
+  "Majority": {
+   "macroF1": 0.231,
+   "balAcc": 0.333,
+   "subjBalAcc_mean": 0.25,
+   "n": 2232,
+   "confusion": [
+    [
+     0,
+     0,
+     866
+    ],
+    [
+     0,
+     0,
+     186
+    ],
+    [
+     0,
+     0,
+     1180
+    ]
+   ]
+  }
+ },
+ "train_v1_test_v2|stress_vs_rest": {
+  "classes": [
+   "rest",
+   "stress"
+  ],
+  "LogReg": {
+   "macroF1": 0.544,
+   "balAcc": 0.648,
+   "subjBalAcc_mean": 0.656,
+   "n": 1052,
+   "confusion": [
+    [
+     493,
+     373
+    ],
+    [
+     51,
+     135
+    ]
+   ]
+  },
+  "RandomForest": {
+   "macroF1": 0.599,
+   "balAcc": 0.601,
+   "subjBalAcc_mean": 0.608,
+   "n": 1052,
+   "confusion": [
+    [
+     734,
+     132
+    ],
+    [
+     120,
+     66
+    ]
+   ]
+  },
+  "LSTM": {
+   "macroF1": 0.52,
+   "balAcc": 0.579,
+   "subjBalAcc_mean": 0.586,
+   "n": 1052,
+   "confusion": [
+    [
+     528,
+     338
+    ],
+    [
+     84,
+     102
+    ]
+   ]
+  },
+  "Majority": {
+   "macroF1": 0.452,
+   "balAcc": 0.5,
+   "subjBalAcc_mean": 0.5,
+   "n": 1052,
+   "confusion": [
+    [
+     866,
+     0
+    ],
+    [
+     186,
+     0
+    ]
+   ]
+  }
+ },
+ "train_v1_test_v2|stress_vs_exercise": {
+  "classes": [
+   "exercise",
+   "stress"
+  ],
+  "LogReg": {
+   "macroF1": 0.728,
+   "balAcc": 0.778,
+   "subjBalAcc_mean": 0.761,
+   "n": 1366,
+   "confusion": [
+    [
+     1030,
+     150
+    ],
+    [
+     59,
+     127
+    ]
+   ]
+  },
+  "RandomForest": {
+   "macroF1": 0.74,
+   "balAcc": 0.732,
+   "subjBalAcc_mean": 0.734,
+   "n": 1366,
+   "confusion": [
+    [
+     1106,
+     74
+    ],
+    [
+     88,
+     98
+    ]
+   ]
+  },
+  "LSTM": {
+   "macroF1": 0.717,
+   "balAcc": 0.765,
+   "subjBalAcc_mean": 0.779,
+   "n": 1366,
+   "confusion": [
+    [
+     1025,
+     155
+    ],
+    [
+     63,
+     123
+    ]
+   ]
+  },
+  "Majority": {
+   "macroF1": 0.463,
+   "balAcc": 0.5,
+   "subjBalAcc_mean": 0.5,
+   "n": 1366,
+   "confusion": [
+    [
+     1180,
+     0
+    ],
+    [
+     186,
+     0
+    ]
+   ]
+  }
+ },
+ "train_v2_test_v1|3class": {
+  "classes": [
+   "rest",
+   "stress",
+   "exercise"
+  ],
+  "LogReg": {
+   "macroF1": 0.628,
+   "balAcc": 0.655,
+   "subjBalAcc_mean": 0.658,
+   "n": 1794,
+   "confusion": [
+    [
+     237,
+     75,
+     27
+    ],
+    [
+     62,
+     78,
+     33
+    ],
+    [
+     18,
+     218,
+     1046
+    ]
+   ]
+  },
+  "RandomForest": {
+   "macroF1": 0.677,
+   "balAcc": 0.671,
+   "subjBalAcc_mean": 0.674,
+   "n": 1794,
+   "confusion": [
+    [
+     270,
+     22,
+     47
+    ],
+    [
+     84,
+     45,
+     44
+    ],
+    [
+     42,
+     14,
+     1226
+    ]
+   ]
+  },
+  "LSTM": {
+   "macroF1": 0.658,
+   "balAcc": 0.649,
+   "subjBalAcc_mean": 0.655,
+   "n": 1794,
+   "confusion": [
+    [
+     221,
+     63,
+     55
+    ],
+    [
+     70,
+     59,
+     44
+    ],
+    [
+     19,
+     40,
+     1223
+    ]
+   ]
+  },
+  "Majority": {
+   "macroF1": 0.278,
+   "balAcc": 0.333,
+   "subjBalAcc_mean": 0.333,
+   "n": 1794,
+   "confusion": [
+    [
+     0,
+     0,
+     339
+    ],
+    [
+     0,
+     0,
+     173
+    ],
+    [
+     0,
+     0,
+     1282
+    ]
+   ]
+  }
+ },
+ "train_v2_test_v1|stress_vs_rest": {
+  "classes": [
+   "rest",
+   "stress"
+  ],
+  "LogReg": {
+   "macroF1": 0.645,
+   "balAcc": 0.65,
+   "subjBalAcc_mean": 0.655,
+   "n": 512,
+   "confusion": [
+    [
+     243,
+     96
+    ],
+    [
+     72,
+     101
+    ]
+   ]
+  },
+  "RandomForest": {
+   "macroF1": 0.61,
+   "balAcc": 0.609,
+   "subjBalAcc_mean": 0.616,
+   "n": 512,
+   "confusion": [
+    [
+     305,
+     34
+    ],
+    [
+     118,
+     55
+    ]
+   ]
+  },
+  "LSTM": {
+   "macroF1": 0.625,
+   "balAcc": 0.625,
+   "subjBalAcc_mean": 0.631,
+   "n": 512,
+   "confusion": [
+    [
+     255,
+     84
+    ],
+    [
+     87,
+     86
+    ]
+   ]
+  },
+  "Majority": {
+   "macroF1": 0.398,
+   "balAcc": 0.5,
+   "subjBalAcc_mean": 0.5,
+   "n": 512,
+   "confusion": [
+    [
+     339,
+     0
+    ],
+    [
+     173,
+     0
+    ]
+   ]
+  }
+ },
+ "train_v2_test_v1|stress_vs_exercise": {
+  "classes": [
+   "exercise",
+   "stress"
+  ],
+  "LogReg": {
+   "macroF1": 0.683,
+   "balAcc": 0.8,
+   "subjBalAcc_mean": 0.8,
+   "n": 1455,
+   "confusion": [
+    [
+     1028,
+     254
+    ],
+    [
+     35,
+     138
+    ]
+   ]
+  },
+  "RandomForest": {
+   "macroF1": 0.832,
+   "balAcc": 0.821,
+   "subjBalAcc_mean": 0.824,
+   "n": 1455,
+   "confusion": [
+    [
+     1239,
+     43
+    ],
+    [
+     56,
+     117
+    ]
+   ]
+  },
+  "LSTM": {
+   "macroF1": 0.792,
+   "balAcc": 0.834,
+   "subjBalAcc_mean": 0.836,
+   "n": 1455,
+   "confusion": [
+    [
+     1182,
+     100
+    ],
+    [
+     44,
+     129
+    ]
+   ]
+  },
+  "Majority": {
+   "macroF1": 0.468,
+   "balAcc": 0.5,
+   "subjBalAcc_mean": 0.5,
+   "n": 1455,
+   "confusion": [
+    [
+     1282,
+     0
+    ],
+    [
+     173,
+     0
+    ]
+   ]
+  }
+ }
+}

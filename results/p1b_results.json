@@ -1,0 +1,254 @@
+{
+ "exercise_inclusive": {
+  "LogReg|with ACC|exercise-inclusive": {
+   "stress_recall": [
+    0.889,
+    0.727,
+    1.0
+   ],
+   "rest_fp": [
+    0.902,
+    0.825,
+    0.947
+   ],
+   "exercise_fp": [
+    0.091,
+    0.036,
+    0.149
+   ]
+  },
+  "LogReg|with ACC|rest-only": {
+   "stress_recall": [
+    0.8,
+    0.615,
+    1.0
+   ],
+   "rest_fp": [
+    0.278,
+    0.167,
+    0.529
+   ],
+   "exercise_fp": [
+    0.827,
+    0.75,
+    0.904
+   ]
+  },
+  "LogReg|without ACC|exercise-inclusive": {
+   "stress_recall": [
+    0.727,
+    0.6,
+    0.9
+   ],
+   "rest_fp": [
+    0.894,
+    0.818,
+    0.981
+   ],
+   "exercise_fp": [
+    0.188,
+    0.13,
+    0.25
+   ]
+  },
+  "LogReg|without ACC|rest-only": {
+   "stress_recall": [
+    0.8,
+    0.467,
+    1.0
+   ],
+   "rest_fp": [
+    0.211,
+    0.118,
+    0.471
+   ],
+   "exercise_fp": [
+    0.987,
+    0.931,
+    1.0
+   ]
+  },
+  "RandomForest|with ACC|exercise-inclusive": {
+   "stress_recall": [
+    0.167,
+    0.0,
+    0.4
+   ],
+   "rest_fp": [
+    0.038,
+    0.0,
+    0.093
+   ],
+   "exercise_fp": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "RandomForest|with ACC|rest-only": {
+   "stress_recall": [
+    0.3,
+    0.091,
+    0.8
+   ],
+   "rest_fp": [
+    0.055,
+    0.0,
+    0.125
+   ],
+   "exercise_fp": [
+    0.481,
+    0.404,
+    0.6
+   ]
+  },
+  "RandomForest|without ACC|exercise-inclusive": {
+   "stress_recall": [
+    0.083,
+    0.0,
+    0.25
+   ],
+   "rest_fp": [
+    0.018,
+    0.0,
+    0.056
+   ],
+   "exercise_fp": [
+    0.012,
+    0.0,
+    0.022
+   ]
+  },
+  "RandomForest|without ACC|rest-only": {
+   "stress_recall": [
+    0.455,
+    0.2,
+    0.636
+   ],
+   "rest_fp": [
+    0.055,
+    0.019,
+    0.143
+   ],
+   "exercise_fp": [
+    0.56,
+    0.489,
+    0.654
+   ]
+  }
+ },
+ "paired": {
+  "LogReg|with ACC": {
+   "d_exercise_fp_median": -0.7088607594936709,
+   "p_exercise": 3.725290298461914e-09,
+   "d_stress_recall_median": 0.0,
+   "p_recall": 0.1067810163242643
+  },
+  "LogReg|without ACC": {
+   "d_exercise_fp_median": -0.7777777777777777,
+   "p_exercise": 2.5596332107133318e-06,
+   "d_stress_recall_median": 0.0,
+   "p_recall": 0.9093335042151244
+  },
+  "RandomForest|with ACC": {
+   "d_exercise_fp_median": -0.4787234042553192,
+   "p_exercise": 2.5613577487758663e-06,
+   "d_stress_recall_median": -0.09999999999999998,
+   "p_recall": 0.0005385174873341328
+  },
+  "RandomForest|without ACC": {
+   "d_exercise_fp_median": -0.5443037974683544,
+   "p_exercise": 3.725290298461914e-09,
+   "d_stress_recall_median": -0.2727272727272727,
+   "p_recall": 1.219038255670596e-05
+  }
+ },
+ "shift_paired_effect_size": {
+  "rest->stress|hr_mean": {
+   "paired_d": 1.087578000374467,
+   "mean_diff": 6.108957482246067,
+   "n": 33
+  },
+  "rest->stress|rmssd": {
+   "paired_d": -0.1722360250962099,
+   "mean_diff": -0.0038561460768598717,
+   "n": 33
+  },
+  "rest->stress|acc_std": {
+   "paired_d": 0.3478231561153689,
+   "mean_diff": 0.0042501263722288475,
+   "n": 33
+  },
+  "rest->stress|acc_mean": {
+   "paired_d": 0.1563542151068072,
+   "mean_diff": 0.0010690971979271581,
+   "n": 33
+  },
+  "rest->stress|hrv_missing": {
+   "paired_d": 0.542663319816453,
+   "mean_diff": 0.11597555797003631,
+   "n": 33
+  },
+  "rest->exercise|hr_mean": {
+   "paired_d": 1.5301099034870644,
+   "mean_diff": 27.278367264739693,
+   "n": 29
+  },
+  "rest->exercise|rmssd": {
+   "paired_d": -0.37660156878839773,
+   "mean_diff": -0.011129021124653509,
+   "n": 29
+  },
+  "rest->exercise|acc_std": {
+   "paired_d": 1.9574965057286111,
+   "mean_diff": 0.04233678960691553,
+   "n": 29
+  },
+  "rest->exercise|acc_mean": {
+   "paired_d": 0.36545630911735366,
+   "mean_diff": 0.033965997855319896,
+   "n": 29
+  },
+  "rest->exercise|hrv_missing": {
+   "paired_d": 1.9070157062335606,
+   "mean_diff": 0.4928336484223974,
+   "n": 29
+  },
+  "stress->exercise|hr_mean": {
+   "paired_d": 1.1541052657702162,
+   "mean_diff": 20.711156846828814,
+   "n": 29
+  },
+  "stress->exercise|rmssd": {
+   "paired_d": -0.19407234440249646,
+   "mean_diff": -0.0066163243332240836,
+   "n": 29
+  },
+  "stress->exercise|acc_std": {
+   "paired_d": 1.5746525453248232,
+   "mean_diff": 0.038083717238148046,
+   "n": 29
+  },
+  "stress->exercise|acc_mean": {
+   "paired_d": 0.3571699900788466,
+   "mean_diff": 0.03332126534241227,
+   "n": 29
+  },
+  "stress->exercise|hrv_missing": {
+   "paired_d": 1.1079504018862736,
+   "mean_diff": 0.36367260475789187,
+   "n": 29
+  }
+ },
+ "wasserstein_standardized": {
+  "rest-stress|hr_mean": 0.21576666053832452,
+  "rest-exercise|hr_mean": 1.0205169109455912,
+  "stress-exercise|hr_mean": 0.8288356670310401,
+  "rest-stress|acc_std": 0.11870062843009435,
+  "rest-exercise|acc_std": 1.0532976248263815,
+  "stress-exercise|acc_std": 0.934596996396287,
+  "rest-stress|acc_mean": 0.03226425290908863,
+  "rest-exercise|acc_mean": 0.24108189107146863,
+  "stress-exercise|acc_mean": 0.2716552279804424
+ }
+}
